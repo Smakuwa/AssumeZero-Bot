@@ -1,22 +1,22 @@
 // The trigger word that precedes most commands and will activate the bot
-exports.trigger = "physics";
+exports.trigger = "smakubot";
 
 // Bot owner information
 exports.owner = {
     "names": {
-        "short": "Cameron",
-        "long": "Cameron Bernhardt"
+        "short": "Igor",
+        "long": "Igor Kowalczyk"
     },
-    "id": "100007016509302" // ID of bot owner (for secure commands, reports, and alerts)
+    "id": "100012448476506" // ID of bot owner (for secure commands, reports, and alerts)
 };
 
 // Bot information
 exports.bot = {
     "names": {
-        "short": "AØBøt", // Will be used as 'nickname' in chat (remove if same as account name)
-        "long": "AssumeZero Bot" // Name displayed in profile on bot's Facebook account
+        "short": "Studenciak BOT", // Will be used as 'nickname' in chat (remove if same as account name)
+        "long": "Smakubot" // Name displayed in profile on bot's Facebook account
     },
-    "id": "100041587845629" // Bot's ID (for security purposes in commands)
+    "id": "100031370478717" // Bot's ID (for security purposes in commands)
 };
 
 // Location of the bot repo if automatic GitHub webhook deploys are used
@@ -30,27 +30,27 @@ exports.repoPath = "/home/cameron/AssumeZero-Bot/";
 exports.contextless = false;
 
 // Default group name when no other information is available
-exports.defaultTitle = "Unnamed chat";
+exports.defaultTitle = "MCH gr.1";
 
 // Heroku settings (might need to tweak some things if using another host)
 // App name
-exports.appName = "assume-bot";
+exports.appName = "student-debil-bot";
 
 // Server URL
 exports.serverURL = `http://${exports.appName}.herokuapp.com`;
 
 // Whether the bot should sleep at night to preserve dyno hours
 // If not, it will ping the server every 20 min to keep it awake
-exports.shouldSleep = false;
+exports.shouldSleep = true;
 
 // What time the bot should sleep in your timezone
-exports.localSleepTime = 3;
+exports.localSleepTime = 1;
 
 // What time the bot should wake up in your timezone
-exports.localWakeTime = 9;
+exports.localWakeTime = 7;
 
 // Your desired timezone for displaying times
-exports.timeZone = "America/New_York";
+exports.timeZone = "Europe/Warsaw";
 
 // Time in seconds to ban users for Order 66
 exports.order66Time = 15;
